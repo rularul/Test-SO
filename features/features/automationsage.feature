@@ -1,4 +1,4 @@
-Feature: Search on Youtube
+Feature: Create a new bank account
   As a website user
   In order to save new bank account with data validation fail
   I need to change data and save correct one
