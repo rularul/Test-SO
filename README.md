@@ -4,7 +4,7 @@ About thecnical test
 Automated test with homemade framework. It was created by our mates and me at last job. It uses ruby, cucumber, gherkin and, as text editor, we choose Atom.
 Code can be reviewed in this same repository. 
 
-Result is: 
+Result returned by terminal is: 
 
 
 Feature: Create a new bank account
