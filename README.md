@@ -21,7 +21,7 @@ Feature: Create a new bank account
 
     Examples: 
       | email                      | password       | wrongAccountName | accountNumber1          | validAccountName  | accountNumber2          |
-      |New bank account has been added correctly to grid |
+      |New bank account has been added correctly to grid 
  automatic.test@yopmail.com | automatic.test |                  | 1111 1111 40 1111111111 | Bank Account Test | 1111 1111 30 1111111111 |
 
 1 scenario (1 passed)
