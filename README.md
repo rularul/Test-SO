@@ -19,7 +19,7 @@ Feature: Create a new bank account
     And user adds new data "<validAccountName>" and "<accountNumber2>"                         # features/features/automationsage.feature:10
     Then user should see new account data on grid                                              # features/features/automationsage.feature:11
 
-    Examples: 
+Examples: 
       | email                      | password       | wrongAccountName | accountNumber1          | validAccountName  | accountNumber2          |
       |New bank account has been added correctly to grid 
  automatic.test@yopmail.com | automatic.test |                  | 1111 1111 40 1111111111 | Bank Account Test | 1111 1111 30 1111111111 |
