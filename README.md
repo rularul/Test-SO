@@ -13,6 +13,7 @@ Feature: Create a new bank account
   I need to change data and save correct one
 
   Scenario Outline: General search                                                             # features/features/automationsage.feature:6
+  # steps (dont included, only edited to easier view)
     Given an user logins with "<email>" and "<password>" on the Sage One page                  # features/features/automationsage.feature:7
     When user wants register new bank account with "<wrongAccountName>" and "<accountNumber1>" # features/features/automationsage.feature:8
     And data validation is failing when saving                                                 # features/features/automationsage.feature:9
